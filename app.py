@@ -14,9 +14,9 @@ import customtkinter as ctk
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 os.chdir(SCRIPT_DIR)
 
-APP_DIR = os.path.join(os.environ.get('LOCALAPPDATA', r'C:\Users\user\AppData\Local'), 'Programs', 'cursor', 'resources', 'app')
-APPDATA_DIR = os.path.join(os.environ.get('APPDATA', r'C:\Users\user\AppData\Roaming'), 'Cursor')
-CURSOR_EXE = os.path.join(os.environ.get('LOCALAPPDATA', r'C:\Users\user\AppData\Local'), 'Programs', 'cursor', 'Cursor.exe')
+APP_DIR = os.path.join(os.environ.get('LOCALAPPDATA', os.path.expanduser(r'~\AppData\Local')), 'Programs', 'cursor', 'resources', 'app')
+APPDATA_DIR = os.path.join(os.environ.get('APPDATA', os.path.expanduser(r'~\AppData\Roaming')), 'Cursor')
+CURSOR_EXE = os.path.join(os.environ.get('LOCALAPPDATA', os.path.expanduser(r'~\AppData\Local')), 'Programs', 'cursor', 'Cursor.exe')
 
 TARGET_FILES = [
     os.path.join(APP_DIR, 'out', 'main.js'),
