@@ -1,16 +1,16 @@
-# ⚡ Cursor Local Provider Unlocker
+# ⚡ Cursor Custom Endpoint Unlocker
 ### Created by [DerminDeep](https://github.com/DerminDeep)
 
 [English](README.md) | [Русский](README_RU.md)
 
 ---
 
-A lightweight tool to unlock the **Local Provider** mode in Cursor IDE. Allows connecting any **Custom OpenAI-compatible endpoints** (Ollama, LM Studio, vLLM, LocalAI, etc.) directly in Cursor **without a Pro subscription**.
+A lightweight tool to unlock custom OpenAI-compatible endpoints in Cursor IDE. Allows connecting any **Custom endpoints** (Ollama, LM Studio, vLLM, 9router, LocalAI, etc.) directly in Cursor **without a Pro subscription**.
 
 ---
 
 ## 🚀 Features
-- ⚡ **Unlock Local Provider** — One-click activation for custom models and custom API endpoints.
+- ⚡ **Unlock Custom Endpoint** — One-click activation for custom models and custom API endpoints.
 
 ---
 
