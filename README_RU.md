@@ -5,7 +5,11 @@
 
 ---
 
-Удобное приложение для разблокировки кастомных OpenAI-compatible эндпоинтов в Cursor IDE. Позволяет подключать любые **Custom эндпоинты** (Ollama, LM Studio, vLLM, 9router, LocalAI и др.) напрямую в Cursor **без подписки Pro**.
+Удобное приложение для разблокировки режима Local Provider в Cursor IDE. Позволяет подключать любые Custom OpenAI-compatible эндпоинты (Ollama, LM Studio, vLLM, LocalAI и др.) напрямую в Cursor без подписки Pro.
+
+<p align="center">
+  <img src="preview.png" alt="Cursor Custom Endpoint Unlocker Preview" width="600"/>
+</p>
 
 ---
 

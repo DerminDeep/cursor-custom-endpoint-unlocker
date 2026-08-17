@@ -5,7 +5,11 @@
 
 ---
 
-A lightweight tool to unlock custom OpenAI-compatible endpoints in Cursor IDE. Allows connecting any **Custom endpoints** (Ollama, LM Studio, vLLM, 9router, LocalAI, etc.) directly in Cursor **without a Pro subscription**.
+A lightweight tool to unlock the Local Provider mode in Cursor IDE. Allows connecting any Custom OpenAI-compatible endpoints (Ollama, LM Studio, vLLM, LocalAI, etc.) directly in Cursor without a Pro subscription.
+
+<p align="center">
+  <img src="preview.png" alt="Cursor Custom Endpoint Unlocker Preview" width="600"/>
+</p>
 
 ---
 
